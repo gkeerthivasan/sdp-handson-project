@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: orange ;
+        }
+
+        .body-container {
+            text-align: center;
+            align-items: center;
+
+        }
+        #vegetableSaladImage {
+            width: 40%;
+            height: 40%;
+        }
+
+        .heading {
+            color: rgb(21, 21, 148);
+            font-size: 24px;
+        }
+
+        h3 {
+            color: rgb(31, 31, 231);
+            font-size: 28px;
+        }
+
+        #benefitsParagraph {
+            color: navy;
+        }
+
+        #stepForVegetableSalad {
+            display: inline-block;
+            text-align: left;
+            color: navy;
+        }
+        #footerText{
+            color: navy;
+            margin-top: 50px;
+            border-top:2px solid  wheat;
+        }
+    </style>
+</head>
+<body>
+    <div class="body-container">
+        <link rel="stylesheet" href="styel.css">
+        <title id="titleName">Vegetable Salad</title>
+        <img width="1200px" src="https://img-global.cpcdn.com/recipes/52ce65f6032290db/680x482cq70/%E0%A4%B5%E0%A4%9C%E0%A4%9F%E0%A4%AC%E0%A4%B2-%E0%A4%B8%E0%A4%B2%E0%A4%A6-vegetable-salad-recipe-in-hindi-%E0%A4%B0%E0%A4%B8%E0%A4%AA-%E0%A4%AE%E0%A4%96%E0%A4%AF-%E0%A4%A4%E0%A4%B8%E0%A4%B5%E0%A4%B0.jpg" id="vegetableSaladImage" alt="">
+        <h3 id="benefits">Benefits of Vegetable Salad</h3>
+        <p id="benifitsParagraph"> Salad greens contain Vitamin A, Vitamin C, beta-carotene, calcium, folate, fiber, and phytonutrients . Leafy vegetables are a good choice for a healthful diet because they do not contain cholesterol and are naturally low in calories and sodium.</p>
+            <h3 id="steps">Steps to make Vegetable Salad</h3>
+            <ul id="stepForVegetableSalad">
+                <li>Wash all the vegetables thoroughly under the running water. Run them dry</li>
+                <li>Peel and chop all the vegetables to bit sized pieces. Grate beetroot and carrot. Add them to large serving bowl.</li>
+                <li>Deseed the green chilies or crush black pepper and set aside.</li>
+                <li>Add all the prepared vegetables , mint and coriander leaves to the bowl. When you are ready to serve the salad, add salt , lemon juice and pepper.</li>
+                <li>toss them well. Lastly sprinkle oil and toss.</li>
+                <li>Garnish with seeds or nuts. Now the vegetable salad is ready to serve.</li>
+            </ul>
+            <footer id="footerText">This easy vegetable salad is packed with a variety of summer produce with all textures and colors one could ever want.</footer>
+    </div>
+    
+</head>
+<body>
+
+    
+</body>
+</html>

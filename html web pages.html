@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color:rgb(221, 94, 48);
+
+        }
+        #form{
+            display: flex;
+            justify-content: center;
+            text-transform: uppercase;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(221, 94, 48);
+            border: 4px;
+        }
+        #body1 {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+
+        }
+        input{
+            display: flex;
+        }
+        #login-form{
+            border: 2px solid black;
+            padding: 50px;
+        }
+        #courseList{
+            display: inline-block;
+            text-align: left;
+            ;
+        }
+    </style>
+</head>
+<body>
+
+    <center>
+        <div class="body1">
+            <h1 id="table-heading">TABLES AND LISTS</h1>
+            <table id="courseTable" border="2px solid black">
+                <tr style="background-color: black; font-family: serif; font-style:oblique; color: aliceblue;">
+                    <th>Roll No</th>
+                    <th>Name</th>
+                    <th>Course</th>
+                    <th>Department</th>
+                </tr>
+                <tr style="background-color: skyblue; color: black;">
+                    <td>1</td>
+                    <td>Surya</td>
+                    <td>Data structures </td>
+                    <td>IT</td>
+                </tr>
+                <tr style="background-color: skyblue; color: black;">
+                 <td>2</td>
+                 <td>Sriram </td>
+                 <td>Information Security</td>
+                 <td>CSE</td>
+                </tr>
+                <tr style="background-color: skyblue; color: black;">
+                 <td>3</td>
+                 <td>Ananth </td>
+                 <td>Bio Informatics</td>
+                 <td>IT</td>
+                </tr>
+                <tr style="background-color:skyblue; color: black;">
+                 <td>4</td>
+                 <td>Vijey </td>
+                 <td>IOT and sensors</td>
+                 <td>ECE</td>
+                </tr>
+             </table>
+             <h2 id="courseHeading">List Of Courses Available</h2>
+             <ul id="courseList">
+                 <li>Computer Science</li>
+                 <li>Electronics</li>
+                 <li>Aerounautics</li>
+                 <li>Artificial Intelligence</li>
+                 <li>Bio Medical</li>
+             </ul>
+     
+        </div>
+    </center>
+
+<br>
+
+
+<center>
+    <div>
+        <h1 id="imageHeading">Image Map</h1>
+
+
+        <img src="https://www.w3schools.com/tags/workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+
+        <map name="workmap">
+            <area shape="rect" coords="34,44,270,350" alt="Computer" href="https://external-preview.redd.it/17VGx_ousyEStosSAd7FJNacX73oaoZ2xm6RkoNMEio.jpg?auto=webp&s=db0ce4b5ad41b6d8511adea79b611771898b94dc">
+            <area shape="rect" coords="290,172,333,250" alt="Phone" href="https://dvsignage.com/wp-content/uploads/2018/03/mobile-phone-evolution.jpg">
+            <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="https://assets.architecturaldigest.in/photos/60083ed208ae763b9ae8542d/16:9/w_2560%2Cc_limit/fermented-coffee-beverage-brew-1366x768.jpg">
+        </map>
+    </div>
+</center>
+
+    
+
+    <br>
+    
+    <div id="form">
+        <form id="login-form" action="#">   
+            <label for="fname">Name:</label>
+            <input id="fname" type="text">
+            <br>
+            <label for="password">Password:</label>
+            <input id="password" type="password">
+            <br>
+            <label for="email">Email:</label>
+            <input type="email">
+            <br>
+            <label for="course">Course:</label>
+            <select name="course" id="course">
+                <option value="computer">CSE</option>
+                <option value="it">IT</option>
+                <option value="ece">ECE</option>
+                <option value="ai&ds">AI&DS</option>
+            </select>
+            <br>
+            <label for="address">Address:</label>
+            <textarea name="address" id="address" cols="30" rows="10"></textarea>
+            <br>
+            <label for="countries">Country</label>
+            <input list="countries" name="countries" id="countries">
+            <datalist id="countries">
+                <option value="India">
+                <option value="Russia">
+                <option value="Germany">
+                <option value="Spain">
+                <option value="Portugal">
+            </datalist>
+            <br>
+
+            <button id="submit_btn">SUBMIT</button>
+            
+        </form>
+    </div>
+    <br>
+    <div>
+        <center>
+            <h1 id="frameHeading">CODING PLATFORMS </h1>
+            <iframe id="frameImage1" title="HackerRank" width="400" height="400" src="https://www.hackerrank.com/"></iframe>
+            <iframe id="frameImage2" title="SkillRack" width="400" height="400" src="https://www.skillrack.com/"></iframe>
+        </center>
+    </div>
+</body>
+</html>

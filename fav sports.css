@@ -1,0 +1,29 @@
+img {
+    width: 1500px;
+}
+
+#jd1 {
+    background-color: purple;
+    position: relative;
+    max-width: 1500px;
+}
+
+#jd2 {
+    background-color: yellow;
+    
+}
+
+#jd3 {
+    background-color: pink;
+}
+
+#jd4 {
+    background-color: red;
+}
+#titleName {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+
+}
